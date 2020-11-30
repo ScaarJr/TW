@@ -1,7 +1,6 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color:white;
-    font-size: 1.1rem;
     line-height: 1.4em;
     margin: 0%;
 }
@@ -16,6 +15,10 @@ body {
     padding: 1rem;
 }
 
+ .header a{
+    margin: 0em .5em .5em 6em;
+ }
+
 .logo-nav-container{
     align-items: center;
     display: flex;
@@ -25,28 +28,19 @@ body {
 .arriba{
     float: right;
     justify-content: space-between;
-}
-
-.logo{
-    text-align: left;
-    margin-left: 1.5rem;
-}
-
-.arriba{
-    text-align: right;
-    margin-right: 1.5rem;
+    margin: 1.5em .5em .5em .5em;
 }
 
 .arriba a{
-    margin: 1rem;
+    text-align: right;
+    margin: 1.5em 3em .5em 0.5em;
 }
 
 .navigation ul{
-    align-items: center;
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    margin-top: 2.7rem;
+    justify-content: space-evenly;
+    margin: 0em .5em .5em 1em;
 }
 
 .navigation ul li {
@@ -58,10 +52,32 @@ body {
     transition: all 0.2s;
     color: black;
     text-decoration:none;
-    margin-right: 1rem;
+    margin: .5em .5em .5em 1em;
 
 }
  
 .navigation ul li a:hover{
     background-color: paleturquoise;
+}
+
+.piedepagina {
+    margin: 1em .5em .5em 1em;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.siguenos{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacta{
+    flex-direction: column;
+    display: flex;
+}
+
+.encuentra{
+    flex-direction: column;
+    display: flex;
 }
