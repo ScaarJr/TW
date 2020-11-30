@@ -29,10 +29,16 @@ body {
 
 .logo{
     text-align: left;
+    margin-left: 1.5rem;
 }
 
 .arriba{
     text-align: right;
+    margin-right: 1.5rem;
+}
+
+.arriba a{
+    margin: 1rem;
 }
 
 .navigation ul{
@@ -40,17 +46,20 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin-top: 2.7rem;
 }
 
 .navigation ul li {
-    margin: 10;
     display: inline-block;
 }
 
 .navigation ul li a{
     display: block;
-    padding: 0.5rem 1rem;
     transition: all 0.2s;
+    color: black;
+    text-decoration:none;
+    margin-right: 1rem;
+
 }
  
 .navigation ul li a:hover{
