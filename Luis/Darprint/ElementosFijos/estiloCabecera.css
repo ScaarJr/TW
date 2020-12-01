@@ -5,7 +5,8 @@ body {
 }
 
 .container{
-    padding: 1.5rem;
+    padding-top: 5rem;
+    padding-left: 2rem;
     display: flex;
     text-align: center;
 }
@@ -52,6 +53,7 @@ body {
 
 .arriba{
     float: right;
+    align-items: center;
     justify-content: space-between;
     margin: 1.5em .5em .5em .5em;
 }
@@ -88,6 +90,23 @@ body {
  
 .navigation ul li :hover{
     background-color: #ABCDC0;
+}
+
+.taza{
+    width: 370px;
+    height: 370px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.taza a{
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
 }
 
 .piedepagina {
