@@ -16,6 +16,13 @@ body {
     padding: 1rem;
 }
 
+#logo {
+	display: inline-block;
+	object-fit: contain;
+	
+}
+
+
 .logo-nav-container{
     align-items: center;
     display: flex;
@@ -35,10 +42,11 @@ body {
 .arriba{
     text-align: right;
     margin-right: 1.5rem;
+	padding:2rem;
 }
 
 .arriba a{
-    margin: 1rem;
+    padding:1rem;
 }
 
 .navigation ul{
