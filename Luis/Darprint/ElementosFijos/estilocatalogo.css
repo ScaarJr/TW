@@ -107,76 +107,44 @@ body {
     display: flex;
 }
 
-.pago{
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    margin: -1em  2em 1em;
-}
-
-.pago a{
-    width: 100%;
-    height: auto;
-}
-
-.pago img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center center;
-}
-
-.cuerpo{
-    justify-content: space-evenly;
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: center;
+.barra{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
     position: relative;
-    margin: 0em .5em 4em 2em;
-    padding: 40px;
-}
-
-.formulario{
-    background:#ABCDC0;
-    width: 800px;
-    height: 220px;
-    flex-direction: column;
-    position: relative;
-    display: block;
-}
-
-.formulario a{
-    padding: 0px 25px;
-    margin-left:190px;
-    position: relative;
-    display: block;
-    margin-top: 1.5em;
-}
-
-.boton{
-    text-align: center;
-    margin: 0em .5em 4em 2em;
-    width: auto;
-    height: auto;
-}
-
-.boton a{
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 13px;
-    color: black;
+    }
+                  
+   .barra li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    }
+                
+   .barra li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+    border:1px solid #ABCDC0;
+    color:#fff;
     background-color:#ABCDC0;
-    border-radius: 6px;   
-  }
+    position: relative;
+    }
+            
+   .barra li a:hover{
+    color:#ABCDC0;
+    background-color:#fff;
+    position: relative;
+                
+    }
+    
+   .barra li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+    }
+            
+    .barra li:hover ul{display:block;}
 
-  .formulario a input[type="text"],
-  .formulario a input[type="email"]{
-	width:180px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;
-	display:inline-block;
-}
