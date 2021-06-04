@@ -180,6 +180,8 @@ body {
 }
 
 .busqueda{
+    position: relative;
+    display: flex;
     background-color:#ABCDC0;
     width: 95%;
     margin:0em 1em 0em 1em ;
@@ -221,3 +223,23 @@ body {
 .general{
     padding-bottom: 0.5em;
 }
+
+.titulos{
+    position: relative;
+    display: flex;
+}
+
+.t1 a{
+    position: relative;
+    padding-right: 20em;
+}
+
+.t2 a{
+    position: relative;
+    display: flex;
+}
+
+.barra{
+    padding-left: 1em;
+}
+
