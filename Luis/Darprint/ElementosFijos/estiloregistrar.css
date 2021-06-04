@@ -136,9 +136,10 @@ body {
 
 
 form{
+    background-color:#ABCDC0 ;
     text-align: center;
     width:350px;
-	padding:16px;
+	padding:20px;
 	margin:auto;
 }
 
@@ -160,7 +161,7 @@ form input[type="password"]{
 
 .boton{
     text-align: center;
-    margin: 1em .5em 4em 2em;
+    margin: 2em .5em 4em 2em;
     width: auto;
     height: auto;
 }
