@@ -140,18 +140,34 @@ body {
 .formulario{
     background:#ABCDC0;
     width: 800px;
-    height: 220px;
+    height: auto;
     flex-direction: column;
     position: relative;
     display: block;
 }
 
-.formulario a{
-    padding: 0px 25px;
-    margin-left:190px;
-    position: relative;
-    display: block;
-    margin-top: 1.5em;
+form{
+    text-align: center;
+    width:500px;
+	padding: 40px;
+	margin:auto;
+}
+
+form label{
+    width:200px;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="password"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #d1cccc;
+	border-radius:3px;
+	background-color:#ebe6e6;
+	margin:15px 20px;
+	display:inline-block;
+    text-align: center;
 }
 
 .boton{

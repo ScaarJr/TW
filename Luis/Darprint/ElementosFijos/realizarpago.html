@@ -16,7 +16,7 @@
             <a title="Telefono" class="telefono"><img
                     src="D:\Users\band2\Documents\CODIGO\TW\Luis\Darprint\ElementosFijos\imagenes\telefono.png"
                     width="30" height="30" /> 667 52 28 49</a>
-            <a title="Carrito" class="carrito" href="#"><img
+            <a title="Carrito" class="carrito" href="cesta.html"><img
                     src="D:\Users\band2\Documents\CODIGO\TW\Luis\Darprint\ElementosFijos\imagenes\carrito.png"
                     alt="Carrito" width="30" height="30" /></a>
             <a title="Usuario" class="usuario" href="#"><img
@@ -43,27 +43,26 @@
         </div>
         <div class="cuerpo">
             <div class="formulario">
-                <a>
-                    NOMBRE DEL TITULAR:
-                    <input type="text" size="25" maxlength="50" value="Titular" name="Titular">
-                </a>
-                <a>
-                    NUMERO DE TARJETA:
-                    <input type="text" size="25" maxlength="50" value="Numero de Tarjeta" name="Numero">
-                </a>
-                <a>
-                    FECHA DE VENCIMIENTO:
-                    <input type="date" size="25" maxlength="50" value="Fecha de Vencimiento" name="Fecha">
-                </a>
-                <a>
-                    CVV:
-                    <input type="text" size="25" maxlength="50" value="CVV" name="CVV">
-                </a>
+                <form action="#" target="" method="get" name="inicio">
+
+                    <label for="usuario">Nombre de Titular</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Escribe el nombre del titular"/>
+                
+                    <label for="Tarjeta">Numero de Tarjeta</label>
+                    <input type="text" name="pass" id="pass" placeholder="Escribe el numero de tarjeta"/>
+
+                    <label for="fecha">Fecha de Vencimiento</label>
+                    <input type="text" name="pass" id="pass" placeholder="aa/dd"/>
+
+                    <label for="cvv">CVV</label>
+                    <input type="text" name="cvv" id="cvv" placeholder="CVV"/>
+                    
+                </form>
             </div>
         </div>
 
         <div class="boton">
-            <a href="" class="boton">REALIZAR PAGO</a>
+            <a href="pagorealizado.html" class="boton">REALIZAR PAGO</a>
         </div>
 
         <hr>
