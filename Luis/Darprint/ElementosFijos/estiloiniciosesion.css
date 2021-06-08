@@ -194,3 +194,12 @@ form input[type="password"]{
     object-fit: cover;
     object-position: center center;
 }
+
+.noreg{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.noreg a{
+    color: grey;
+}
