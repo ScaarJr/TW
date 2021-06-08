@@ -255,7 +255,8 @@ body {
 
 .busgeneral{
     padding-top: 2em;
-    height: 20em;
+    padding-bottom: 2em;
+    height: auto;
     margin-top: 1em;
     margin-left: 2em;
     margin-right: 2em;
@@ -305,14 +306,14 @@ p.box {
     width: 60%;
 }
 
-.boton{
+.botones{
     text-align: center;
-    margin: 5em 10em 0em 3em;
+    margin: 6em 15em 0em 5em;
     width: auto;
     height: auto;
 }
 
-.boton a{
+.botones a{
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
@@ -321,4 +322,8 @@ p.box {
     background-color:white;
     border-radius: 6px;   
   }
+  .botondos{
+      padding-bottom: 3em;
+  }
+
 
