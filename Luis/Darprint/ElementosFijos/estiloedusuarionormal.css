@@ -304,11 +304,3 @@ form input[type="password"]{
 	display:inline-block;
 }
 
-form input[type="checkbox"]{
-    width:180px;
-	border:1px solid #d1cccc;
-	border-radius:3px;
-	background-color:#ebe6e6;
-	margin:15px 20px;
-	display:inline-block;
-}
