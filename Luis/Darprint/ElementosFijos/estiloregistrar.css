@@ -141,6 +141,7 @@ form{
     width:350px;
 	padding:20px;
 	margin:auto;
+    margin-bottom: 2em;
 }
 
 form label{
@@ -199,4 +200,9 @@ form input[type="password"]{
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+form input[type="submit"]{
+margin-top: 1em;
+
 }
